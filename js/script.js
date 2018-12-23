@@ -10,10 +10,10 @@ for (var i=0;i<populationArray.length;i++){
 
 switch(maxPopulation){
 
-case maxPopulation>populationArray[i]:console.log("larger");
-case maxPopulation<populationArray[i]:console.log("smaller");
-case maxPopulation==populationArray[i]:console.log("equals");
-default:
+case maxPopulation>populationArray[i]:console.log("larger") ;break;
+case maxPopulation<populationArray[i]:console.log("smaller") ;break;
+case maxPopulation==populationArray[i]:console.log("equals");break;
+default:break;
 
 }
 }
