@@ -2,7 +2,7 @@ console.log("tbd")
 //Text
 console.log("Hello World!");
 
-var populationArray = [2,5,3,4,7];
+var populationArray = [200000,500000,100000,400000,90000];
 var maxPopulation = Math.floor(Math.random()*10)*100000;
 var isOverPopulated = true; 
 
@@ -19,7 +19,7 @@ default:break;
 }
 
 
-if((populationArray[1]+populationArray[2]+populationArray[3]<100000 && maxPopulation<100000) || !isOverPopulated ){
+if(((populationArray[populationArray.length-3]<100000 && populationArray[populationArray.length-2]<100000 && populationArray[populationArray.length-1]<100000) && maxPopulation<100000) || !isOverPopulated ){
 
     console.log("Small cities!!!")
 }
